@@ -143,6 +143,15 @@ font-size:48px;
 .stat-box h3{
     font-size:36px;
     }
+
+    .why-grid{
+    grid-template-columns:1fr;
+}
+
+.why-box{
+    padding:25px;
+}
+    
 .grid{
     grid-template-columns:1fr;
     gap:20px;
