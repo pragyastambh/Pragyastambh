@@ -299,7 +299,101 @@ font-size:18px;
 text-align:center;
 
 }
+/* =======================
+WELCOME
+======================= */
 
+.welcome{
+
+background:#ffffff;
+
+}
+
+.welcome .container{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+gap:60px;
+
+}
+
+.welcome-text{
+
+flex:1;
+
+}
+
+.welcome-text h2{
+
+font-size:40px;
+
+color:#0B3D91;
+
+margin-bottom:20px;
+
+}
+
+.welcome-text p{
+
+font-size:18px;
+
+margin-bottom:20px;
+
+text-align:justify;
+
+}
+
+.read-btn{
+
+display:inline-block;
+
+background:#0B3D91;
+
+color:white;
+
+text-decoration:none;
+
+padding:14px 28px;
+
+border-radius:30px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.read-btn:hover{
+
+background:#FFC107;
+
+color:black;
+
+}
+
+.welcome-image{
+
+flex:1;
+
+text-align:center;
+
+}
+
+.welcome-image img{
+
+max-width:320px;
+
+width:100%;
+
+border-radius:20px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.15);
+
+}
 /* =======================
 SERVICE GRID
 ======================= */
