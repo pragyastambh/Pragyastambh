@@ -177,3 +177,9 @@ grid-template-columns:1fr;
 .footer-column ul li{
     list-style:none;
     }
+
+.about-section .container,
+.vision-mission .container{
+    flex-direction:column;
+    text-align:center;
+}
