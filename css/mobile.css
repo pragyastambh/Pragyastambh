@@ -136,7 +136,13 @@ padding:25px;
 font-size:48px;
 
     }
-    
+    .stats-grid{
+    grid-template-columns:1fr;
+}
+
+.stat-box h3{
+    font-size:36px;
+    }
 .grid{
     grid-template-columns:1fr;
     gap:20px;
