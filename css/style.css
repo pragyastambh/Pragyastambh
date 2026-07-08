@@ -751,3 +751,42 @@ FOOTER
     text-align:center;
     font-size:14px;
 }
+/* ABOUT PAGE */
+
+.page-banner{
+    background:#0B3D91;
+    color:#fff;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.about-section .container,
+.vision-mission .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.about-text,
+.about-image,
+.vision-box,
+.mission-box{
+    flex:1;
+}
+
+.about-image img{
+    max-width:320px;
+    width:100%;
+    display:block;
+    margin:auto;
+}
+
+.vision-box,
+.mission-box{
+    background:#fff;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+   }
