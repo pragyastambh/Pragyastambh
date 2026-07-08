@@ -118,6 +118,24 @@ margin-top:30px;
 max-width:220px;
 
     }
+
+    .vision-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.vision-box{
+
+padding:25px;
+
+}
+
+.icon{
+
+font-size:48px;
+
+    }
     
 .grid{
     grid-template-columns:1fr;
