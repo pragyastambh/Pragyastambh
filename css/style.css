@@ -467,6 +467,49 @@ line-height:1.8;
 }
 
 /* =======================
+STATISTICS
+======================= */
+
+.stats{
+    background:#0B3D91;
+    color:white;
+    text-align:center;
+}
+
+.stats h2{
+    color:white;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.stat-box{
+    background:rgba(255,255,255,.1);
+    padding:30px;
+    border-radius:18px;
+    transition:.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-6px);
+    background:rgba(255,255,255,.18);
+}
+
+.stat-box h3{
+    font-size:42px;
+    color:#FFD54F;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    font-size:18px;
+       }
+
+/* =======================
 SERVICE GRID
 ======================= */
 
