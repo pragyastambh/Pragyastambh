@@ -151,7 +151,11 @@ font-size:48px;
 .why-box{
     padding:25px;
 }
-    
+    .updates-grid{
+
+grid-template-columns:1fr;
+
+    }
 .grid{
     grid-template-columns:1fr;
     gap:20px;
