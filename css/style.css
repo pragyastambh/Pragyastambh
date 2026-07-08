@@ -608,6 +608,84 @@ WHY CHOOSE US
 }
 
 /* =======================
+LATEST UPDATES
+======================= */
+
+.updates{
+
+background:#f7f9fc;
+
+}
+
+.updates-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.update-card{
+
+background:#ffffff;
+
+padding:30px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.3s;
+
+border-left:6px solid #0B3D91;
+
+}
+
+.update-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.date{
+
+display:inline-block;
+
+background:#0B3D91;
+
+color:white;
+
+padding:6px 12px;
+
+border-radius:20px;
+
+font-size:13px;
+
+margin-bottom:15px;
+
+}
+
+.update-card h3{
+
+color:#0B3D91;
+
+margin-bottom:15px;
+
+}
+
+.update-card p{
+
+font-size:16px;
+
+line-height:1.8;
+
+}
+
+/* =======================
 FOOTER
 ======================= */
 
