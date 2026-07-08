@@ -790,3 +790,150 @@ FOOTER
     border-radius:16px;
     box-shadow:0 8px 20px rgba(0,0,0,.08);
    }
+/* ==========================
+   LIBRARY PAGE
+========================== */
+
+.library-hero{
+
+background:linear-gradient(rgba(11,61,145,.85),rgba(11,61,145,.85));
+
+color:#fff;
+
+text-align:center;
+
+padding:90px 20px;
+
+}
+
+.library-hero h1{
+
+font-size:48px;
+
+margin-bottom:15px;
+
+}
+
+.library-hero p{
+
+font-size:20px;
+
+opacity:.9;
+
+}
+
+.library-intro{
+
+max-width:1000px;
+
+margin:auto;
+
+text-align:center;
+
+padding:70px 20px;
+
+}
+
+.library-search{
+
+display:flex;
+
+justify-content:center;
+
+gap:10px;
+
+padding:20px;
+
+flex-wrap:wrap;
+
+}
+
+.library-search input{
+
+width:420px;
+
+max-width:90%;
+
+padding:14px;
+
+border:1px solid #ccc;
+
+border-radius:30px;
+
+font-size:16px;
+
+}
+
+.library-search button{
+
+padding:14px 28px;
+
+background:#0B3D91;
+
+color:white;
+
+border:none;
+
+border-radius:30px;
+
+cursor:pointer;
+
+}
+
+.library-search button:hover{
+
+background:#072b68;
+
+}
+
+.library-category{
+
+padding:70px 8%;
+
+}
+
+.library-login{
+
+background:#eef4ff;
+
+text-align:center;
+
+padding:70px 20px;
+
+margin-top:40px;
+
+}
+
+.library-login p{
+
+max-width:700px;
+
+margin:20px auto;
+
+}
+
+.read-btn{
+
+display:inline-block;
+
+background:#FFC107;
+
+color:#000;
+
+padding:14px 30px;
+
+border-radius:30px;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.read-btn:hover{
+
+transform:translateY(-3px);
+
+   }
