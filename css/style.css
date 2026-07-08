@@ -395,6 +395,77 @@ border-radius:20px;
 box-shadow:0 12px 30px rgba(0,0,0,.15);
 
 }
+
+/* =======================
+VISION
+======================= */
+
+.vision{
+
+background:#eef4ff;
+
+}
+
+.vision-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:35px;
+
+margin-top:40px;
+
+}
+
+.vision-box{
+
+background:white;
+
+padding:35px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.vision-box:hover{
+
+transform:translateY(-8px);
+
+}
+
+.icon{
+
+font-size:60px;
+
+margin-bottom:20px;
+
+}
+
+.vision-box h3{
+
+color:#0B3D91;
+
+margin-bottom:15px;
+
+font-size:28px;
+
+}
+
+.vision-box p{
+
+font-size:17px;
+
+line-height:1.8;
+
+}
+
 /* =======================
 SERVICE GRID
 ======================= */
